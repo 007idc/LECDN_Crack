@@ -1,11 +1,12 @@
 TG[@GoEdge233](https://t.me/goedge233)
 
+# 感谢Lecdn官方的引流，观察到自开心版PATCH无人使用，故直接开源license服务端源码
 
 ## 功能
 
 本仓库可帮助你开心的试用Lecdn
 
-## 使用方法
+## 使用方法一（直接使用）
 
 安装完Lecdn后从仓库中下载修改过的lecdn-master.patch放到Lecdn目录下
 
@@ -20,6 +21,25 @@ chmod +x lecdn-master.patch
 ```bash
 echo "13.125.122.206 key.lecdn.local">>/etc/hosts
 ```
+
+## 使用方法二（自行编译）
+
+下载lecdn.zip压缩包，解压放到/license_server目录下。解压后编译运行（需要GOLANG环境）
+
+```bash
+go build
+./LeCDN
+```
+
+完成后执行下面命令修改Hosts（$IP改为自己的授权站IP）
+
+```bash
+echo "$IP key.lecdn.local">>/etc/hosts
+```
+
+## 鸣谢
+
+Lecdn
 
 ## 广告位招租 接定制破解 TG[@mihoooyoo](https://t.me/mihoooyoo)
 
