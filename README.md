@@ -21,9 +21,7 @@ chmod +x lecdn-master.patch
 echo "13.125.122.206 key.lecdn.local">>/etc/hosts
 ```
 
-## 鸣谢
-
-[@GoEdge233](https://t.me/goedge233)
+## 广告位招租 接定制破解 TG[@mihoooyoo](https://t.me/mihoooyoo)
 
 ## 许可证
 
